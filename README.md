@@ -11,3 +11,6 @@ Our aim is to detect the community (people as well as the network structure) int
 shares at least one post containing one or more of the keywords,
 follows one the influencers of the theme.
 For the implementation we need to select a social media platform. This selection first depends on the community itself. Some communities prefers some platforms more than other. On the other hand each platform has own its data access limitations. Twitter is the most open (in terms of providing public data) among them. Therefore, we start with Twitter.
+
+#Twitter API:
+For the details see https://github.com/openmaker-eu/socialmedia/blob/master/Twitter.ipynb. Twitter allows us to listen tweets by Stream API. It is also possible to collect all the tweets of a single account and of course all the followings of that account. This means that it is possible to check the membership of an account to a community.
